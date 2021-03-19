@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arvo", serif;
+}
+
+header {
+  text-align: center;
+  text-shadow: 10px 10px 5px rgba(87, 86, 86, 0.3);
+  padding: 20px;
+  background-color: rgba(240, 240, 240, 0.9);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: black;
+}
+
+header > h1 {
+  filter: drop-shadow(0px 0px 1px #ad5389);
+}
+
+body {
+  background: #ad5389; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.score-bar {
+  width: 300px;
+  border: 3px solid white;
+  margin: 20px auto;
+  font-size: 40px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 10px;
+  position: relative;
+}
+.score-bar > span {
+  font-size: 50px;
+}
+.result-message > p {
+  text-align: center;
+  font-size: 30px;
+  margin: 100px;
+}
+
+.selection{
+  margin:30px 0;
+  text-align: center;
+}
+
+.choice{
+  display: inline-block;
+  border: solid 4px white;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 0 20px;
+}
+.choice:hover{
+  background-color: rgba(0, 0, 0,0.4);
+  cursor: pointer;
+}
+
+.selection>div:hover{
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+  border: solid 4px darkorchid;
+  transform: rotate(360deg);
+}
+
+.action-play{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.btn_restart{
+  width: 200px;
+  height: 100px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.btn_restart>a{
+  padding: 20px;
+  background: linear-gradient( to left,#3c1053,#ad5389);
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0,0.4);
+}
+#user-name {
+  position: absolute;
+  top: 30px;
+  left: -40px;
+
+  background: #3c1053; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ad5389,
+    #3c1053
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ad5389,
+    #3c1053
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 4px;
+  font-size: 25px;
+  color: white;
+  font-weight: 100;
+}
+
+#computer-name {
+  position: absolute;
+  top: 30px;
+  right: -55px;
+  background: #ad5389; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 4px;
+  font-size: 25px;
+  color: white;
+  font-weight: 100;
+}

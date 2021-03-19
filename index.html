@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissor</title>
+</head>
+<body>
+    <!-- Header title -->
+  <header>
+    <h1>Rock Paper Scissors</h1>
+  </header>
+     <!-- Score container -->
+  <div class="score-bar">
+    <div id="user-name">User</div>
+    <div id="computer-name">Machine</div>
+    <span id="user-score">0</span>:<span id="machine-score">0</span>
+  </div>
+      <!-- result message tag -->
+  <div class="result-message"><p id="result">Who will be the winner!!!</p></div>
+
+      <!-- ROCK , PAPER, SCISSORS CHOICES -->
+  <div class="selection">
+    <div class="choice" id="r">
+      <img
+        src="src/rock.png"
+        alt="rock"
+        width="100px"
+        height="100px"
+      />
+    </div>
+    <div class="choice" id="p">
+      <img
+        src="src/paper.png"
+        alt="paper"
+        width="100px"
+        height="100px"
+      />
+    </div>
+    <div class="choice" id="s">
+      <img
+        src="src/scissors.png"
+        alt="scissors"
+        width="100px"
+        height="100px"
+      />
+    </div>
+  </div>
+      <!-- Simple tag -->
+  <div class="action-play">
+    <p>Make your move.</p>
+  </div>
+  <div class="btn_restart">
+    <a href="#" id="btn">Restart</a>
+  </div>
+  <script src="script.js" charset="utf-8"></script>
+</body>
+</html>
