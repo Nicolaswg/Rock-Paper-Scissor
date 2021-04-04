@@ -12,8 +12,8 @@ header {
   text-shadow: 10px 10px 5px rgba(87, 86, 86, 0.3);
   padding: 20px;
   background-color: rgba(240, 240, 240, 0.9);
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   color: black;
 }
 
@@ -53,11 +53,11 @@ body {
 .result-message > p {
   text-align: center;
   font-size: 30px;
-  margin: 100px;
+  margin: 50px 0 ;
 }
 
 .selection{
-  margin:30px 0;
+  margin:10px 0;
   text-align: center;
 }
 
